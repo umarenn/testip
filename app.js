@@ -10,6 +10,6 @@ app.get('/q', (req, res) => {
 })
 
 
-app.listen(3000, '0.0.0.0', ()=>{
+app.listen(3000, ()=>{
     console.log('listening on port 3001')
 })
